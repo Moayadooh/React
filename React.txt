@@ -19,3 +19,7 @@ delete App.test.js, reportWebVitals.js and setupTests.js
 remove import reportWebVitals from './reportWebVitals'; and reportWebVitals();
 
 React.StrictMode --> check if there is an errors
+
+Terminal:
+npm run start --> run the application
+npm install --> download node_modules folder
