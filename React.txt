@@ -1,0 +1,13 @@
+
+SPA --> Single Page Application
+
+Node JS:
+https://nodejs.org/en/
+
+Commands:
+node -v --> display Node JS version
+npx create-react-app moayad-blog --> create react project named(moayad-blog)
+code . --> open peoject with VS Code
+
+Application Structure:
+node_modules --> react dependencies
