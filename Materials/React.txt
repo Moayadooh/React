@@ -1,4 +1,7 @@
 
+Complete React Tutorial:
+https://github.com/iamshaunjp/Complete-React-Tutorial
+
 SPA --> Single Page Application
 
 Node JS:
@@ -15,7 +18,7 @@ public --> include main page "index.htm"
 scr --> 99% of source code will be in this folder
 	--> include "index.js" that will render full project
 	
-delete App.test.js, reportWebVitals.js and setupTests.js
+delete App.test.js, reportWebVitals.js, setupTests.js and logo.svg
 remove import reportWebVitals from './reportWebVitals'; and reportWebVitals();
 
 React.StrictMode --> check if there is an errors
@@ -23,3 +26,27 @@ React.StrictMode --> check if there is an errors
 Terminal:
 npm run start --> run the application
 npm install --> download node_modules folder
+
+code in App.js is called JSX
+
+Ctrl+K+C --> comment the code.
+Ctrl+K+U --> uncomment the code
+
+
+
+
+import logo from './logo.svg';
+<header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
