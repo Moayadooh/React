@@ -11,3 +11,11 @@ code . --> open peoject with VS Code
 
 Application Structure:
 node_modules --> react dependencies
+public --> include main page "index.htm"
+scr --> 99% of source code will be in this folder
+	--> include "index.js" that will render full project
+	
+delete App.test.js, reportWebVitals.js and setupTests.js
+remove import reportWebVitals from './reportWebVitals'; and reportWebVitals();
+
+React.StrictMode --> check if there is an errors
