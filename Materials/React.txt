@@ -18,9 +18,6 @@ public --> include main page "index.htm"
 scr --> 99% of source code will be in this folder
 	--> include "index.js" that will render full project
 	
-delete App.test.js, reportWebVitals.js, setupTests.js and logo.svg
-remove import reportWebVitals from './reportWebVitals'; and reportWebVitals();
-
 React.StrictMode --> check if there is an errors
 
 Terminal:
@@ -34,6 +31,8 @@ Ctrl+K+U --> uncomment the code
 
 
 
+delete App.test.js, reportWebVitals.js, setupTests.js and logo.svg
+remove import reportWebVitals from './reportWebVitals'; and reportWebVitals();
 
 import logo from './logo.svg';
 <header className="App-header">
