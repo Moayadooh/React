@@ -28,24 +28,3 @@ code in App.js is called JSX
 
 Ctrl+K+C --> comment the code.
 Ctrl+K+U --> uncomment the code
-
-
-
-delete App.test.js, reportWebVitals.js, setupTests.js and logo.svg
-remove import reportWebVitals from './reportWebVitals'; and reportWebVitals();
-
-import logo from './logo.svg';
-<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
