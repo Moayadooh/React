@@ -1,9 +1,4 @@
-
-// function Navbar(){
-//     return (  );
-// }
-
-const Navbar = () => {
+function Navbar() {
     return ( 
         <nav className="navbar">
             <h1>The Moayad Blog</h1>

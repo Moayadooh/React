@@ -1,11 +1,11 @@
 
-function Test() {
-  const title = "Welcome to React Basics";
+function Var() {
+  const title = "Welcome to React Variables";
   const likes = 50;
   const link = "https://reactjs.org";
   // const person = {name: "Eyad", age: 1};
   return (
-    <div className="Test">
+    <div className="Var">
       <div className="content">
         <h1>{title}</h1>
         <p>Liked {likes} times</p>
@@ -20,4 +20,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Var;

@@ -2,6 +2,11 @@
 Complete React Tutorial:
 https://github.com/iamshaunjp/Complete-React-Tutorial
 
+-variables
+-nested files
+-inline style
+-click event
+
 SPA --> Single Page Application
 
 Node JS:
@@ -28,3 +33,9 @@ code in App.js is called JSX
 
 Ctrl+K+C --> comment the code.
 Ctrl+K+U --> uncomment the code
+
+sfc + tab
+
+div.classname + tap
+
+
