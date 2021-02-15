@@ -38,5 +38,3 @@ Ctrl+K+U --> uncomment the code
 sfc + tab
 
 div.classname + tap
-
-
