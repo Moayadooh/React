@@ -3,13 +3,14 @@ function Var() {
   const title = "Welcome to React Variables";
   const likes = 50;
   const link = "https://reactjs.org";
-  // const person = {name: "Eyad", age: 1};
+  const person = {name: "Eyad", age: 1};
+  //let name = "Eyad";
   return (
     <div className="Var">
       <div className="content">
         <h1>{title}</h1>
         <p>Liked {likes} times</p>
-        {/* <p>{person}</p> */}
+        <p>{person.name} {person.age}</p>
         <p>{23}</p>
         <p>{"Moayad"}</p>
         <p>{[1,2,3,4]}</p>
