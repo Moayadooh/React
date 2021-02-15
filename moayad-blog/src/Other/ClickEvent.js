@@ -1,4 +1,10 @@
-function Event() {
+// function Event(){
+//     return (  );
+// }
+const Event = () => {
+    // const handleClick = () => {
+    //     console.log("Eyad");
+    // }
     function handleClick() {
         console.log("Eyad");
     }

@@ -4,8 +4,8 @@ https://github.com/iamshaunjp/Complete-React-Tutorial
 
 -variables
 -nested files
--inline style
 -click event
+-inline style
 
 SPA --> Single Page Application
 
