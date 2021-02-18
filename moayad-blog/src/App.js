@@ -1,12 +1,15 @@
 import Navbar from './Navbar';
 import Home from './Home';
+import List from './Other/Lists';
+import Hook from './Other/HookStates';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="content">
-        <Home />
+        {/* <Home /> */}
+        <Hook/>
       </div>
     </div>
   );

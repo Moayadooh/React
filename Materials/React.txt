@@ -4,9 +4,13 @@ Complete React Tutorial(GitHub):
 https://github.com/iamshaunjp/Complete-React-Tutorial
 
 -variables
+-inline style
 -nested files
 -click event
--inline style
+-props
+-Hook --> useState, useEffect, useEffect dependencies ([])
+-lists
+-filter
 
 SPA --> Single Page Application
 
@@ -29,6 +33,7 @@ React.StrictMode --> check if there is an errors
 Terminal:
 npm run start --> run the application
 npm install --> download node_modules folder
+npx json-server --watch data/db.json --port 7000 --> specify localhost port to call API (db.json)
 
 code in App.js is called JSX
 
