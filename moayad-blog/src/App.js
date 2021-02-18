@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import List from './Other/Lists';
 import Hook from './Other/HookStates';
+import Fetching from './Other/FetchJson';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       {/* <Navbar /> */}
       <div className="content">
         {/* <Home /> */}
-        <Hook/>
+        <Fetching/>
       </div>
     </div>
   );
