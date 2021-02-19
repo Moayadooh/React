@@ -1,0 +1,9 @@
+
+-variables
+-inline style
+-nested files(components)
+-click event
+-props
+-Hook --> useState, useEffect, useEffect dependencies ([])
+-lists, filter
+-fetching JSON data, loading message, setTimeOut, hanle errors
