@@ -1,17 +1,27 @@
 import Navbar from './Navbar';
 import Home from './Home';
-import List from './Other/Lists';
-import Hook from './Other/HookStates';
-import Fetching from './Other/FetchJson';
+import Create from './Create';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <Fetching />
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <Switch>
+            {/* start read from top to bottom */}
+            {/* "exact" key word will select path only if the name is fully same */}
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/create">
+              <Create />
+            </Route>
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

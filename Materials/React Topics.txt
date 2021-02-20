@@ -6,4 +6,5 @@
 -props
 -Hook --> useState, useEffect, useEffect dependencies ([])
 -lists, filter
--fetching JSON data, loading message, setTimeOut, hanle errors
+-fetching JSON data, loading message, setTimeOut, hanle errors, Custom Hook, useEffect Cleanup
+-Router
