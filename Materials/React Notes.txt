@@ -1,4 +1,4 @@
-C:\Users\moaya\Documents\React\moayad-blog
+C:\Users\moaya\Documents\React
 
 SPA --> Single Page Application
 
@@ -36,3 +36,9 @@ if(null) --> return false
 if(false && true) --> will evaluate from the left first and will stop(since it's false)
 
 Custom Hook --> function name must start with "use"
+
+Redux:
+npm install redux react-redux --> install redux
+
+Redux DevTools:
+https://github.com/zalmoxisus/redux-devtools-extension#usage
