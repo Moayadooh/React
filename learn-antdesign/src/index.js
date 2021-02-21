@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import SliderDemo from './Slider';
+import TablePagination from './Table';
+import Modal from './Modal';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <SliderDemo /> */}
+    {/* <TablePagination /> */}
+    <Modal />
   </React.StrictMode>,
   document.getElementById('root')
 );
