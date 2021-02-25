@@ -34,3 +34,6 @@ npm install react-router-dom@5
 
 install Redux:
 npm install redux react-redux --> install redux
+
+install Material UI:
+npm install @material-ui/core
