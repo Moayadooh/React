@@ -1,9 +1,0 @@
-
-Ant Design:
-https://ant.design/
-
-React Bootstrap Datatables:
-https://mdbootstrap.com/docs/react/tables/datatables/
-
-React Bootstrap:
-https://react-bootstrap.github.io/getting-started/introduction/

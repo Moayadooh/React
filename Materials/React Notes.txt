@@ -1,4 +1,3 @@
-C:\Users\moaya\Documents\React
 
 SPA --> Single Page Application
 
@@ -9,18 +8,6 @@ React.StrictMode --> check if there is an errors
 Application Structure:
 node_modules --> react dependencies
 public --> include main page "index.html"
-
-Commands:
-node -v --> display Node JS version
-npx create-react-app moayad-blog --> create react project named(moayad-blog)
-code . --> open peoject with VS Code
-
-Terminal:
-npm run start --> run the application
-npm install --> download node_modules folder
-npx json-server --watch data/db.json --port 7000 --> specify localhost port to call API (db.json)
-Ctrl+C in the terminal then yes --> terminate the connection to localhost port
-npm install react-router-dom@5 --> install react router version 5
 
 Ctrl+K+C --> comment the code
 Ctrl+K+U --> uncomment the code
@@ -36,9 +23,6 @@ if(null) --> return false
 if(false && true) --> will evaluate from the left first and will stop(since it's false)
 
 Custom Hook --> function name must start with "use"
-
-Redux:
-npm install redux react-redux --> install redux
 
 Redux DevTools:
 https://github.com/zalmoxisus/redux-devtools-extension#usage

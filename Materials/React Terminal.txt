@@ -1,0 +1,36 @@
+C:\Users\moaya\Documents\React
+
+display Node JS version:
+node -v
+
+open peoject with VS Code:
+code .
+
+run the application:
+npm run start
+
+specify localhost port to call API (db.json):
+npx json-server --watch data/db.json --port 7000
+
+terminate the connection to localhost port
+Ctrl+C in the terminal then yes
+
+
+Installation:
+Migrations from 4.0.2 to 4.0.3:
+npm install --save --save-exact react-scripts@4.0.3
+
+install create-react-app: https://www.npmjs.com/package/create-react-app/v/4.0.3
+npm i create-react-app
+
+create react project named(moayad-blog):
+npx create-react-app moayad-blog
+
+download node_modules folder(if not exist):
+npm install
+
+install react router version 5:
+npm install react-router-dom@5
+
+install Redux:
+npm install redux react-redux --> install redux
