@@ -17,23 +17,24 @@ Ctrl+C in the terminal then yes
 
 
 Installation:
-Migrations from 4.0.2 to 4.0.3:
+Migrate project from 4.0.2 to 4.0.3:
 npm install --save --save-exact react-scripts@4.0.3
 
-install create-react-app: https://www.npmjs.com/package/create-react-app/v/4.0.3
+Install create-react-app: https://www.npmjs.com/package/create-react-app/v/4.0.3
 npm i create-react-app
 
-create react project named(moayad-blog):
+Create react project named(moayad-blog):
 npx create-react-app moayad-blog
 
-download node_modules folder(if not exist):
+Download node_modules folder(if not exist):
 npm install
 
-install react router version 5:
+Install react router version 5:
 npm install react-router-dom@5
 
-install Redux:
-npm install redux react-redux --> install redux
+Install Redux:
+npm install redux --> install redux
+npm install redux react-redux --> install react redux
 
-install Material UI:
+Install Material UI:
 npm install @material-ui/core
