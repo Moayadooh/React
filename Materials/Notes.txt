@@ -28,6 +28,7 @@ Custom Hook --> function name must start with "use"
 
 Redux DevTools:
 https://github.com/zalmoxisus/redux-devtools-extension#usage
+https://github.com/zalmoxisus/redux-devtools-extension#user-content-13-use-redux-devtools-extension-package-from-npm
 
 fake API for testing and prototyping:
 https://jsonplaceholder.typicode.com/
