@@ -1,5 +1,6 @@
 
 -Redux Logger
--Redux Thunk
--axios
+-axios --> API Request
+-Redux Thunk --> Async Action
 -React Redux
+-connect, useSelector
