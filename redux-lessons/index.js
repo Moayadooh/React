@@ -68,7 +68,7 @@ const cakesReducer = (state = initialCakesState, action) => {
 const iceCreamsReducer = (state = initialIceCreamsState, action) => {
     switch (action.type) {
         case BUY_ICECREAM: return {
-            ...state,
+            ...state, //Copy existing state
             numOfIceCreams: state.numOfIceCreams - 1
         }
 
@@ -92,3 +92,4 @@ store.dispatch(buyCake())
 store.dispatch(buyIceCream())
 store.dispatch(buyIceCream())
 unsubscribe() //Stop dispatch function
+// store.dispatch(buyCake()) //Will not run

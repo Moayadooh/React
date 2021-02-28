@@ -13,7 +13,7 @@ specify localhost port to call API (db.json):
 npx json-server --watch data/db.json --port 7000
 
 terminate the connection to localhost port
-Ctrl+C in the terminal then yes
+Ctrl + C in the terminal then yes
 
 Migrate project from 4.0.2 to 4.0.3:
 npm install --save --save-exact react-scripts@4.0.3
@@ -39,4 +39,5 @@ npm init --yes
 Install Redux:
 npm install redux
 npm install redux-logger
+npm install axios redux-thunk
 npm install redux react-redux

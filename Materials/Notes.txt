@@ -15,6 +15,8 @@ Ctrl+K+F --> code formatting
 
 sfc + tab
 
+rfce + tab
+
 div.classname + tap
 
 {} --> javascript code written inside curly brazes
@@ -26,3 +28,6 @@ Custom Hook --> function name must start with "use"
 
 Redux DevTools:
 https://github.com/zalmoxisus/redux-devtools-extension#usage
+
+fake API for testing and prototyping:
+https://jsonplaceholder.typicode.com/
