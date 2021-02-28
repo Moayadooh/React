@@ -15,8 +15,6 @@ npx json-server --watch data/db.json --port 7000
 terminate the connection to localhost port
 Ctrl+C in the terminal then yes
 
-
-Installation:
 Migrate project from 4.0.2 to 4.0.3:
 npm install --save --save-exact react-scripts@4.0.3
 
@@ -32,10 +30,13 @@ npm install
 Install react router version 5:
 npm install react-router-dom@5
 
-Install Redux:
-npm install redux --> install redux
-npm install redux logger --> install redux-logger
-npm install redux react-redux --> install react redux
-
 Install Material UI:
 npm install @material-ui/core
+
+Install package.json:
+npm init --yes
+
+Install Redux:
+npm install redux
+npm install redux-logger
+npm install redux react-redux
