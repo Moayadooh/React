@@ -47,7 +47,7 @@ function buyIceCream() {
 // }
 
 const initialCakesState = {
-    numOfCakes: 10,
+    numOfCakes: 10
 }
 
 const initialIceCreamsState = {
