@@ -38,4 +38,4 @@ https://github.com/john-smilga/react-projects
 https://react-projects.netlify.app/
 https://www.uidesigndaily.com/
 
-2-Tours Intro
+⌨️ (0:32:04​) 2-Tours Display Data
