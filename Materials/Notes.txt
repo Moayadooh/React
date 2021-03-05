@@ -32,3 +32,10 @@ https://github.com/zalmoxisus/redux-devtools-extension#user-content-13-use-redux
 
 fake API for testing and prototyping:
 https://jsonplaceholder.typicode.com/
+
+15 React Projects:
+https://github.com/john-smilga/react-projects
+https://react-projects.netlify.app/
+https://www.uidesigndaily.com/
+
+2-Tours Intro
