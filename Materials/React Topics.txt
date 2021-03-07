@@ -15,17 +15,15 @@
 
 
 
+-filter
+-Custom Hook, useEffect Cleanup(AbortController)
+-Create --> POST request
+
 -nested files(components)
 -props
 
--filter
--Custom Hook, useEffect Cleanup(AbortController)
-
 -Hook --> useHistory
 -App --> Router, useParams
-
--Create --> POST request
--BlogDetails --> DELETE request
 
 -Not Found
 -Link
