@@ -4,10 +4,29 @@
 -nested files(components)
 -click event
 -props
--Hook --> useState, useEffect, useEffect dependencies ([]), useParams
+-Hook --> useState, useEffect, useEffect dependencies ([]), useParams, useHistory
 -lists, filter
 -fetching JSON data, loading message, setTimeOut, hanle errors, Custom Hook, useEffect Cleanup
 -App --> Router
 -Create --> inpus, submit form, POST request
 -BlogDetails --> DELETE request
+-Not Found
+
+
+
+
+
+-nested files(components)
+-props
+
+-Hook --> useEffect, useEffect dependencies ([]), useParams, useHistory
+
+-lists, filter
+-fetching JSON data, loading message, setTimeOut, hanle errors, Custom Hook, useEffect Cleanup
+
+-App --> Router
+
+-Create --> POST request
+-BlogDetails --> DELETE request
+
 -Not Found
