@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moaya\\Desktop\\NET Core and React Project\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\moaya\\Documents\\React\\WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moaya\\Desktop\\NET Core and React Project\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\moaya\\Documents\\React\\WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moaya\\Desktop\\NET Core and React Project\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\moaya\\Documents\\React\\WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\moaya\\Desktop\\NET Core and React Project\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\moaya\\Documents\\React\\WebAPI\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\moaya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moaya\\Desktop\\NET Core and React Project\\WebAPI\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\moaya\\Documents\\React\\WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

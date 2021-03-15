@@ -71,6 +71,7 @@ namespace WebAPI.Controllers
             }
 
             return NoContent();
+            //return CreatedAtAction("GetDepartment", new { id = department.DepartmentId }, department);
         }
 
         // POST: api/Departments
@@ -99,6 +100,12 @@ namespace WebAPI.Controllers
             await _context.SaveChangesAsync();
 
             return department;
+        }
+
+        [Route("GetAllDepartmentName")]
+        public JsonResult GetAllDepartmentName()
+        {
+            return new JsonResult(_context.Departments.Select(x => x.DepartmentName).ToList());
         }
 
         private bool DepartmentExists(int id)
