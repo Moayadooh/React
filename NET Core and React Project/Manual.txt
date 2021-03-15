@@ -1,0 +1,36 @@
+
+React App:
+--> npm i create-react-app
+--> npx create-react-app app-name
+
+.Net Core:
+public EmployeeDbContext(DbContextOptions<EmployeeDbContext> options) : base(options)
+{
+	//Disable "Lazy Loading"
+	//ChangeTracker.LazyLoadingEnabled = false;
+}
+public DbSet<Employee> Employees { get; set; }
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+"ConnectionStrings": {
+    "constr": "Data Source=.;Initial Catalog=EmployeeDB;Integrated Security=true"
+  },
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Enable DB Context
+services.AddDbContext<EmployeeDbContext>(options => options.UseLazyLoadingProxies().UseSqlServer(Configuration.GetConnectionString("constr")));
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Enable CORS
+-ConfigureServices:
+services.AddCors(c =>
+{
+	c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
+
+-Configure:
+app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+YouTube Video:
+24:06
