@@ -297,7 +297,6 @@ C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\wi
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
@@ -310,3 +309,9 @@ C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.cspr
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache

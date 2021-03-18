@@ -102,6 +102,7 @@ namespace WebAPI.Controllers
             return department;
         }
 
+        [HttpGet]
         [Route("GetAllDepartmentName")]
         public JsonResult GetAllDepartmentName()
         {
