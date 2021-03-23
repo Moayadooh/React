@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { Button, ButtonToolbar, Table } from 'react-bootstrap';
 
 import { AddDepModal } from './AddDepModal';
+import { EditDepModal } from './EditDepModal';
 
 export class Department extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { deps: [], addModalShow: false }
+        this.state = { deps: [], addModalShow: false, editModalShow: false }
     }
 
     refreshList() {
@@ -27,8 +28,9 @@ export class Department extends Component {
     }
 
     render() {
-        const { deps } = this.state;
+        const { deps, depid, depname } = this.state;
         let addModalClose = () => this.setState({ addModalShow: false });
+        let editModalClose = () => this.setState({ editModalShow: false });
         return (
             <div>
                 <Table className="mt-4" striped bordered hover size="sm">
@@ -44,7 +46,15 @@ export class Department extends Component {
                             <tr key={dep.departmentId}>
                                 <td>{dep.departmentId}</td>
                                 <td>{dep.departmentName}</td>
-                                <td>Edit / Delete</td>
+                                <td>
+                                    <ButtonToolbar>
+                                        <Button className="mr-2" variant="info"
+                                            onClick={() => this.setState({ editModalShow: true, depid: dep.departmentId, depname: dep.departmentName })}>
+                                                Edit
+                                        </Button>
+                                        <EditDepModal show={this.state.editModalShow} onHide={editModalClose} depid={depid} depname={depname} />
+                                    </ButtonToolbar>
+                                </td>
                             </tr>)}
                     </tbody>
                 </Table>

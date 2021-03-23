@@ -44,14 +44,9 @@ namespace WebAPI.Controllers
         // PUT: api/Departments/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutDepartment(int id, Department department)
+        [HttpPut]
+        public async Task<IActionResult> PutDepartment(Department department)
         {
-            if (id != department.DepartmentId)
-            {
-                return BadRequest();
-            }
-
             _context.Entry(department).State = EntityState.Modified;
 
             try
@@ -60,14 +55,7 @@ namespace WebAPI.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!DepartmentExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                throw;
             }
 
             return NoContent();
