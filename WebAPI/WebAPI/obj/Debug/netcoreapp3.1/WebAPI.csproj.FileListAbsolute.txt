@@ -314,3 +314,4 @@ C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\moaya\Documents\React\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache

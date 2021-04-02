@@ -41,6 +41,20 @@ namespace WebAPI.Controllers
             return department;
         }
 
+        [HttpGet] //api/Departments?id=2
+        [Route("param")]
+        public async Task<ActionResult<Department>> GetDepartmentByParam(int id)
+        {
+            var department = await _context.Departments.FindAsync(id);
+
+            if (department == null)
+            {
+                return NotFound();
+            }
+
+            return department;
+        }
+
         // PUT: api/Departments/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
