@@ -21,9 +21,13 @@ export class EditDepModal extends Component {
                 departmentName: event.target.DepartmentName.value
             })
         })
+            // .then(res => {
+            //     console.log(res);
+            //     return res.json();
+            // })
             .then(res => res.json())
             .then((result) => {
-                alert(result + ' added.');
+                alert('Updated.');
             },
                 (error) => {
                     alert("Failed");

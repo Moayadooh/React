@@ -58,7 +58,8 @@ namespace WebAPI.Controllers
                 throw;
             }
 
-            return NoContent();
+            return Ok("");
+            //return NoContent();
             //return CreatedAtAction("GetDepartment", new { id = department.DepartmentId }, department);
         }
 
