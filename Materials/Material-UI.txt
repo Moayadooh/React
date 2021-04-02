@@ -1,0 +1,6 @@
+
+npm install @material-ui/core
+
+Typography --> instead of h1,h2... or p
+Typography: https://material-ui.com/components/typography/#typography
+Typography API: https://material-ui.com/api/typography/
