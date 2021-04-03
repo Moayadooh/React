@@ -2,8 +2,7 @@ import React from 'react'
 import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button'
 import Container from '@material-ui/core/Container'
-import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight'
-import { makeStyles } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core' //import function
 
 const useStyles = makeStyles({
   btn: {
@@ -19,7 +18,7 @@ const useStyles = makeStyles({
   }
 })
 
-export default function Create() {
+export default function MakeStyles() {
   const classes = useStyles()
 
   return (
@@ -28,18 +27,12 @@ export default function Create() {
       className={classes.title}
         variant="h6"
         component="h2"
-        gutterBottom
-        color="textSecondary"
       >
         Create a New Note
       </Typography>
 
       <Button
         className={classes.btn}
-        onClick={() => alert("you clicked me")}
-        type="submit" color="secondary"
-        variant="contained"
-        endIcon={<KeyboardArrowRightIcon />}
       >
         Submit
       </Button>

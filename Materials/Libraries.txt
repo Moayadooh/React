@@ -1,0 +1,9 @@
+
+Pagination tables:
+https://material-table.com/#/
+
+Charts:
+https://recharts.org/en-US/
+
+Ant Design vs Material UI:
+https://www.npmtrends.com/ant-design-vs-material-ui
