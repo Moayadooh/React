@@ -41,7 +41,8 @@ namespace WebAPI.Controllers
             return department;
         }
 
-        [HttpGet] //api/Departments?id=2
+        // GET: api/Departments?id=2
+        [HttpGet]
         [Route("param")]
         public async Task<ActionResult<Department>> GetDepartmentByParam(int id)
         {
